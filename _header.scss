@@ -1,0 +1,42 @@
+header {
+  background-color: black;
+  height: 120px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo__img {
+      padding-top: 28px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .img__logo {
+        height: 65px;
+      }
+      .js__logo {
+        color: white;
+        font-size: 32px;
+      }
+      span {
+        color: #f70696;
+      }
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      .nav__li {
+        a {
+          list-style-type: none;
+          text-decoration: none;
+          color: white;
+          font-size: 18px;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

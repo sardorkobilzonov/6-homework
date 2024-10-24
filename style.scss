@@ -1,0 +1,19 @@
+@import "./header";
+@import "./main";
+@import "./footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+body {
+  background-color: yellow;
+}
